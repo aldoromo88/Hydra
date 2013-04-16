@@ -1,0 +1,49 @@
+﻿@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+    <link href="~/Content/Themes/Default/Css/Colors.css" rel="stylesheet" />
+    <link href="~/Content/Themes/Default/Css/Home.css" rel="stylesheet" />
+    <link href="~/Content/Themes/redmond/jquery-ui-1.10.2.custom.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper1">
+        <div id="wrapper2">
+            <div id="menuHolder" class="container">
+                <div id="menuTitle" class="borderTitleLeft">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="60">
+                        <text transform="rotate(270, 12, 0) translate(-40,10)" style="fill: #FFFFFF;">Menu</text>
+                    </svg>
+                </div>
+                <div id="menuContent">
+                </div>
+            </div>
+
+            <div id="pluginHolder">
+                <ul id="tabs"></ul>
+            </div>
+
+            <div id="agentMonitorHolder" class="container">
+                <div id="agentMonitorTitle" class="borderTitleRight">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="140">
+                        <text transform="rotate(270, 12, 0) translate(-120,10)" style="fill: #FFFFFF;">Agent Monitor</text>
+                    </svg>
+                </div>
+
+                <div id="agentMonitorContent">
+                </div>
+            </div>
+
+            <div id="infoBarHolder">info bar holder</div>
+        </div>
+    </div>
+    <script type="text/javascript" data-main='js/app' src="~/js/libs/Rquire/require.js"></script>
+</body>
+</html>
